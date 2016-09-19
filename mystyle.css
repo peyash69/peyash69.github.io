@@ -1,0 +1,13 @@
+h1
+{
+text-align: center;
+color:blue
+}
+
+
+body 
+{
+    background-image: url('p1.jpg');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+}

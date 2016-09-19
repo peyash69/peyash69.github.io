@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>   
+     <head>
+
+     	<title>My cse391 WebSite</title>
+      <meta charset="UTF-8">
+
+      <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+     </head>
+
+     <body>
+           <h1>Some of My Personal Information</h1>
+           <ol>
+           	   <li>Name: Md.Hossain shahnawaj.</li>
+               <li>Home District: Dhaka.</li>
+               <li>University: Brac University.</li>
+               <li>ID: 12301049.</li>
+           </ol>
+           <h1>Some of My Links</h1>
+           <ul>
+           	   <li>For more information about me just click <a href="file:///C:/Users/shahnawaj/Desktop/cse391/info.html">here</a></li>
+           	   <li>To see my facebook profile click <a href="https://www.facebook.com/peyash69">here</a></li>
+           </ul>
+           <br>
+           <br>
+
+            <p>Click here to see the date and time this document was last modified.</p>
+
+            <button onclick="myFunction()">Here</button>
+
+            <p id="demo"></p>
+            <p id="demo1"></p>
+
+            <script>
+               function myFunction() 
+               {
+               var x = document.lastModified;
+               var y = window.location.href;
+               document.getElementById("demo").innerHTML = x;
+               document.getElementById("demo1").innerHTML = y;
+               }
+            </script>
+
+     </body>
+</html>
